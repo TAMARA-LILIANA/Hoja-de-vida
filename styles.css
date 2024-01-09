@@ -1,0 +1,48 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*foto perfil*/
+img {
+    width: 12rem;
+    height: 13rem;   
+}
+
+/*Es el componente de la imagen y del texto de la derecha*/
+.header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  
+}
+
+/*texto del lado de la imagen*/
+.header div {
+    margin: 2rem;
+    text-align: center;
+    width: 21rem;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+/*contenido del narvar*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-around;
+    background-color: #c3bebe;
+    border: 0.3rem solid cornflowerblue;
+    border-radius: 0.6rem;
+}
+
+/*.contenido h4 {
+    display: flex;
+    justify-content: center;
+}*/
+
+.footer {
+    display: flex;
+    background-color: #c3bebe;
+    border: 0.3rem solid cornflowerblue;
+    border-radius: 10px;
+}

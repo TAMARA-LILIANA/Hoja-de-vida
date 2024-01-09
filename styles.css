@@ -35,14 +35,18 @@ img {
     border-radius: 0.6rem;
 }
 
-/*.contenido h4 {
-    display: flex;
-    justify-content: center;
-}*/
-
 .footer {
     display: flex;
     background-color: #c3bebe;
     border: 0.3rem solid cornflowerblue;
     border-radius: 10px;
+}
+
+
+.contenido-2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif Times, serif;
+}
+
+.contenido-4 {
+    font-family: 'Times New Roman', Times, serif Times, serif;
 }
